@@ -33,7 +33,7 @@ administrator user with email admin@admin.com and password “password”.
 | 2  | $ cd laravel-mini-CRM-master (for root directory) |  |
 | 3  | $ composer install  |  |
 | 4  | Create database on MySQL or SQLite For.eg [ mysql -uroot -p -e "CREATE DATABASE test_app_db"  ]   |  |
-| 5  | Make chnages in your .env file - change default settings with yours ]   |  |
+| 5  | Make changes in your .env file - change default settings with yours ]   |  |
 | 5  |$ php artisan migrate --seed  |  | 
 | 6  |$ php artisan db:seed --class=UserTableSeeder |
 | 7  |$ php artisan serve |
