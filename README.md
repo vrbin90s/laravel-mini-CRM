@@ -31,7 +31,7 @@ administrator user with email admin@admin.com and password “password”.
 |----------------|---------------|
 | 1  | Clone the repo : git clone [https://github.com/vrbin90s/laravel-mini-CRM.git) |         |
 | 2  | $ cd laravel-mini-CRM-master (for root directory) |  |
-| 3  | $ composer install (unless you arleady have it, you can than skipp this step) |  |
+| 3  | $ composer install  |  |
 | 4  | $ cp .env.example .env  |  | 
 | 5  |  php artisan key:generate  |  |
 | 6  | Create database on MySQL or SQLite  |  |
