@@ -1,7 +1,8 @@
 # Mini-CRM
-This project was given as a test by the company to showcase some of my skills and knowldge for Junior Developer position. 
+This project was given as a test by the company to showcase some of my skills and knowledge for the Junior Developer position. It was a fun project, and I was very happy to participate. Hopefully, you will find this project useful to your needs! :mortar_board:
 
-This project built with Laravel v9.17.0
+This project was built with Laravel v9.17.0
+
 
 # Given / Completed Requirments
 - [x] Ability to login as administrator
@@ -62,7 +63,7 @@ Employees Table - Simillar functionalities - Add/Delete/View/Edit + Pagination +
 
 # Copyrights
 
-This software is open source software and you can use it as you wish. No credits required. Have Fun! :thumbsup:
+This software is open-source software, and you can use it as you wish. No credits are required. Have Fun! :thumbsup:
 
 
 
