@@ -1,64 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Mini-CRM
+This project was given as a test by the company to showcase some of my skills and knowldge for Junior Developer position. 
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project built with Laravel v9.17.0
 
-## About Laravel
+# Given / Completed Requirments
+- [x] Ability to login as administrator
+- [x] CRUD functionality (Create / Read / Update / Delete) for two menu items: Companies and
+Employees.
+- [x] Companies DB table consists of these fields: name (required), email, logo (minimum 100×100),
+website.
+- [x] Employees DB table consists of these fields: first name (required), last name (required),
+Company (foreign key to Companies), email, phone.
+- [x] Use database migrations to create schemas above.
+- [x] Use seeders with factories to create fake data for companies and employees. Create
+administrator user with email admin@admin.com and password “password”.
+- [x] Store companies' logos in storage/app/public folder and make them accessible from public.
+- [x] Use basic Laravel resource controllers with default methods – index, create, store etc.
+- [x] Use Laravel’s validation function, using Request classes.
+- [x] Use Laravel’s validation function, using Request classes.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Bonus Points
+- [x] Host project on GitHub.
+- [x] Simple README with simple instructions on how to launch the project.
+- [ ] Basic testing with phpunit.
+- [ ] Dockerize the application.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# How to install
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+| Task           | Steps |  
+|----------------|---------------|
+| 1  | Clone the repo : git clone [https://github.com/vrbin90s/laravel-mini-CRM.git) |         |
+| 2  | $ cd Mini-CRM  |  |
+| 3  | $ composer install  |  |
+| 4  | $ cp .env.example .env  |  | 
+| 2  |  php artisan key:generate  |  |
+| 3  | Create database on MySQL or SQLite  |  |
+| 4  |$ php artisan migrate --seed  |  | 
+| 5  |$ php artisan migrate --seed|
+| 6  |$ php artisan db:seed --class=UserTableSeeder |
+| 7  |$ php artisan serve |
+|10| Login with: :shipit: admin@admin.com :shipit: password
 
-## Learning Laravel
+# Screenshots
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Login Page - I know that two login buttons are not neccessary :trollface:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![image](https://user-images.githubusercontent.com/72602872/172951663-018e145c-2886-4a9a-a1e5-6ab2e39f57ef.png)
 
-## Laravel Sponsors
+Welcome Page & Navigation 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+![image](https://user-images.githubusercontent.com/72602872/172952046-f0a717e4-c081-4768-9e5c-0fa4cc22066b.png)
 
-### Premium Partners
+Companies Page - Add/Delete/View/Edit + Pagination (10 items as per requirments) Functionalities
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![image](https://user-images.githubusercontent.com/72602872/172952139-8fd9f30c-021b-4d78-9c18-7cd0009b083c.png)
 
-## Contributing
+Employees Table - Simillar functionalities - Add/Delete/View/Edit + Pagination + Companies Filtering
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![image](https://user-images.githubusercontent.com/72602872/172952614-fe46f5e5-830a-439e-aa6a-cdbe48f8ae39.png)
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+# Copyrights
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This software is open source software and you can use it as you wish. No credits required. Have Fun! :thumbsup:
