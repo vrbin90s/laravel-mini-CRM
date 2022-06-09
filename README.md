@@ -30,15 +30,14 @@ administrator user with email admin@admin.com and password “password”.
 | Task           | Steps |  
 |----------------|---------------|
 | 1  | Clone the repo : git clone [https://github.com/vrbin90s/laravel-mini-CRM.git) |         |
-| 2  | $ cd Mini-CRM  |  |
-| 3  | $ composer install  |  |
+| 2  | $ cd laravel-mini-CRM-master (for root directory) |  |
+| 3  | $ composer install (unless you arleady have it, you can than skipp this step) |  |
 | 4  | $ cp .env.example .env  |  | 
-| 2  |  php artisan key:generate  |  |
-| 3  | Create database on MySQL or SQLite  |  |
-| 4  |$ php artisan migrate --seed  |  | 
-| 5  |$ php artisan migrate --seed|
-| 6  |$ php artisan db:seed --class=UserTableSeeder |
-| 7  |$ php artisan serve |
+| 5  |  php artisan key:generate  |  |
+| 6  | Create database on MySQL or SQLite  |  |
+| 7  |$ php artisan migrate --seed  |  | 
+| 8  |$ php artisan db:seed --class=UserTableSeeder |
+| 9  |$ php artisan serve |
 |10| Login with: :shipit: admin@admin.com :shipit: password
 
 # Screenshots
