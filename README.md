@@ -29,7 +29,7 @@ administrator user with email admin@admin.com and password “password”.
 
 | Task           | Steps |  
 |----------------|---------------|
-| 1  | Clone the repo : git clone https://github.com/nafiesl/Mini-CRM.git |         |
+| 1  | Clone the repo : git clone [https://github.com/vrbin90s/laravel-mini-CRM.git) |         |
 | 2  | $ cd Mini-CRM  |  |
 | 3  | $ composer install  |  |
 | 4  | $ cp .env.example .env  |  | 
